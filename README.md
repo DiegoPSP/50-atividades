@@ -1,6 +1,8 @@
 # 50-atividades
 Desafio de fazer 50 exercícios com o pessoal do IF Baiano.
+
 print("------------------------------INÍCIO---------------------------------------------")
+
 1 - Criar algoritmo que cria uma lista de elementos HTML.
 
 2 - Algoritmo que passa elementos de 1 array pro outro.
