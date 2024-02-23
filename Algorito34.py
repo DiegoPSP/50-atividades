@@ -1,0 +1,5 @@
+numero = ("45")
+tamanho = tuple(f"{numero}")
+amstrong = (tuple(numero[0]) * len(tamanho)) + (tuple(numero[1]) * len(tamanho))
+print (amstrong)
+print(tamanho)
