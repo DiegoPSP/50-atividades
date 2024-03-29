@@ -1,5 +1,13 @@
-numero = ("45")
-tamanho = tuple(f"{numero}")
-amstrong = (tuple(numero[0]) * len(tamanho)) + (tuple(numero[1]) * len(tamanho))
-print (amstrong)
-print(tamanho)
+def amstrong(numero):
+    valor = str(numero)
+    potencia = len(valor)
+    soma = 0
+    for digito in valor:
+        soma += int(digito) ** potencia
+    if soma == numero:
+        print(f"O número {numero} é um número de Amstrong!")
+    else:
+        print(f"O número {numero} é diferente de {soma}. Não é um número de Amstrong!")
+
+numero = int(input("Digite um valor e veja se ele é um número de amstrong: "))
+amstrong(numero)
