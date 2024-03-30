@@ -3,7 +3,7 @@ print("\nVamos analisar se o seu investimento será \33[0;32;40mrentável\33[m o
 
 def calcular_vpl(fluxo_entrada, taxa_desconto, investimento):
     vpl = -investimento
-    for t, fluxo in enumerate(fluxo_entrada):
+    for t, fluxo in enumerate(fluxo_entrada):#enumerate faz com que vários parâmetros sejam iterados ao mesmo tempo(threads);
         vpl += fluxo / (1 + taxa_desconto) ** (t + 1)
     return vpl
 
